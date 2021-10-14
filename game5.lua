@@ -1,0 +1,12 @@
+local item = require("item")
+local pocao = {}
+
+function pocao.novo()
+    local pocao = item.novo("pocao", "vida", 50)
+	item.vida = 100
+	return pocao
+end
+
+return pocao
+
+
